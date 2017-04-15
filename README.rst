@@ -33,7 +33,7 @@ Preparation and displaying of a bitmap image
 7. Move the files main.py, sdd1306.py and sdd1306_bitmap.py to the micro:bit with the file transfer function in mu
 8. Reset the micro:bit or press CTRL+D in the Repl.
 
-   .. image:: https://cdn.rawgit.com/fizban99/microbit_ssd1306/7f60064d/microbit_with_logo.jpg
+   .. image::.images/ssd1306spi_sm.JPG
       :width: 100%
       :align: center
 
