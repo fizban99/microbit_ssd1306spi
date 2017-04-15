@@ -78,12 +78,11 @@ Displays on the OLED screen the image stored in the file *filename*. The image h
    oled.clear_oled()
    oled.show_bitmap("microbit_logo")
 
-set_px(x, y, color, draw=1)
+set_px(x, y, color)
 +++++++++++++++++++++++++++++
 
 
 Paints the pixel at position x, y (of a 64x32 coordinate system) with the corresponding color (0 dark or 1 lighted). 
-If the optional parameter **draw** is set to 0 the screen will not be refreshed and **draw_screen()** needs to be called at a later stage, since multiple screen refreshes can be time consuming. This allows setting different pixels in the buffer without refreshing the screen, and finally refresh the display with the content of the buffer.
 
 .. code-block:: python
 
@@ -137,3 +136,15 @@ When drawing a sprite, the contents of the screen just before the first column o
       
 The previous function removes a sprite at position x1,y1 and redraws it at position x2, y2. Note that the first draw_sprite() does not refresh the screen. The screen is only refreshed once, with the second draw_sprte(). If the sprite is 5x5 and it is centered within the 8x7 area, the sprite will be properly updated if the distance between the two coordinates is maximum one pixel.
 
+add_text(x, y, text, size=1)
+++++++++++++++++++++++++++++++
+
+Prints the text given by **text** at the row x and column y. The screen is divided into 12 columns and 5 rows. If the optional parameter **size** is set to 2 the the text will be written in double size.
+
+.. code-block:: python
+
+   from ssd1306spi import SSD1306
+   
+   oled = SSD1306()
+   oled.clear_oled()
+   oled.add_text(0, 2, "Hello, world")
