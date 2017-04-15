@@ -12,6 +12,6 @@ Installation
 2. Use the file copy functionality of mu to copy the following files: main.py, splash, game_over, ssd1306.py, ssd1306_stamp.py and ssd1306_bitmap.py
 3. Reset the micro:bit
 
-   .. image:: ../../images/bitflyer1.jpg
+   .. image:: ../../images/bitflyer1_sm.jpg
       :width: 100%
       :align: center
