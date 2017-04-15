@@ -3,7 +3,7 @@ Basic micropython library to control the OLED SSD1306 128x64 spi with a micro:bi
 
 This library allows the micro:bit to control the typical low cost 0,96" OLED display sold in Amazon and eBay connected to the default spi pins of the micro:bit. Some sort of breakout is required.
 
-You should connect D0 to 13, D1 to 15, RES to 14 and DC to 16. You also must connect the device’s ground to the micro:bit ground (pin GND). 
+You should connect D0 to 13, D1 to 15, RES to 14 and DC to 16. You also must connect the device’s ground to the micro:bit ground (pin GND) and the device's VCC to the micro:bit VCC. 
 
 This library uses the full resolution of the OLED, due to some optimizations that can be done when using SPI instead of I2C.
 
