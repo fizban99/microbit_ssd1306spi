@@ -21,7 +21,9 @@ Main features
 =============
 
 * Load a 128x64 bitmap file
-* Set and get pixel value 
+* Set and get pixel value
+* Sprites
+* Text
 * Sample programs demonstrating the different functions
 
 
