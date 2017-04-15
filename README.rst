@@ -8,6 +8,10 @@ You should connect D0 to 13, D1 to 15, RES to 14 and DC to 16. You also must con
 This library uses the full resolution of the OLED, due to some optimizations that can be done when using SPI instead of I2C.
 
 
+   .. image:: ./images/ssd1306spi_sm.jpg
+      :width: 100%
+      :align: center
+      
 .. contents::
 
 .. section-numbering::
@@ -33,9 +37,6 @@ Preparation and displaying of a bitmap image
 7. Move the files main.py, sdd1306.py and sdd1306_bitmap.py to the micro:bit with the file transfer function in mu
 8. Reset the micro:bit or press CTRL+D in the Repl.
 
-   .. image:: ./images/ssd1306spi_sm.jpg
-      :width: 100%
-      :align: center
 
 Library usage
 =============
